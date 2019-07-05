@@ -255,7 +255,7 @@ function KellyTetris(holder, fExit) {
 	
 	this.stop = function() {
 		gameover = true;
-		document.body.onkeydown = false;
+		window.location.reload()
 		
 		if (onExit) onExit(handler);
 	}
