@@ -371,7 +371,7 @@ KellyTetris.playMe = function() {
 		
 		KellyTetris.consoleType({
 			starttext : 'C:\\>',
-			text : 'start tetris',
+			text : '$_ENV["USERNAME"]',
 			delayBefore : 5,
 			delayAfter : 5,
 			screen : game,
