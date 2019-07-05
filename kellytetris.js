@@ -370,8 +370,8 @@ KellyTetris.playMe = function() {
 		gameContainer.style.opacity = 1;
 		
 		KellyTetris.consoleType({
-			starttext : 'C:\\',
-			text : 'Users\\User\\> \n C:\\Users\\User\\>cd Tetris \n C:\\User\\User\\Tetris\\>start tetris \n Запуск игры Tetris...',
+			starttext : 'Microsoft Windows [Version x.x.xxxx]\n(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.',
+			text : 'C:\\Users\\User\\>\nC:\\Users\\User\\>cd Tetris\nC:\\User\\User\\Tetris\\>start tetris\nЗапуск игры Tetris...',
 			delayBefore : 5,
 			delayAfter : 5,
 			screen : game,
