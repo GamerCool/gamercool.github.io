@@ -370,7 +370,7 @@ KellyTetris.playMe = function() {
 		gameContainer.style.opacity = 1;
 		
 		KellyTetris.consoleType({
-			starttext : 'C:\',
+			starttext : 'C:\\>',
 			text : 'start tetris',
 			delayBefore : 5,
 			delayAfter : 5,
