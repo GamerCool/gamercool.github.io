@@ -275,7 +275,7 @@ KellyTetris.consoleUpdateCursor = function(cfg) {
 		cfg.cursor = document.createElement("span");
 		cfg.cursor.style.transition = 'all 1s';
 		cfg.cursor.style.opacity = '1';
-		cfg.cursor.innerHTML = '_';
+		cfg.cursor.innerHTML = '';
 		cfg.screen.appendChild(cfg.cursor);
 	}
 };
