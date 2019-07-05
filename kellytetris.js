@@ -371,7 +371,7 @@ KellyTetris.playMe = function() {
 		
 		KellyTetris.consoleType({
 			starttext : 'C:\\',
-			text : 'Users\User\>',
+			text : 'Users\\User\>',
 			delayBefore : 5,
 			delayAfter : 5,
 			screen : game,
