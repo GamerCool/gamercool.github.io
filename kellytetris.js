@@ -191,7 +191,7 @@ function KellyTetris(holder, fExit) {
 			}
 			
 			if (y == 10) {
-				o += "\u041e\u0447\u043a\u043e\u0432:" + score;
+				o += "\u041e\u0447\u043a\u043e\u0432: " + score;
 			}
 			
 			o += "<br>";
@@ -370,10 +370,10 @@ KellyTetris.playMe = function() {
 		gameContainer.style.opacity = 1;
 		
 		KellyTetris.consoleType({
-			starttext : 'A:\\>',
-			text : 'tetris.exe',
-			delayBefore : 12,
-			delayAfter : 10,
+			starttext : 'C:\\>',
+			text : 'start tetris<br>Запуск программы Tetris',
+			delayBefore : 5,
+			delayAfter : 5,
 			screen : game,
 			onEnd : function() {
 				
