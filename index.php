@@ -38,3 +38,6 @@ var a=document.createElement("script");
 </body>
 
 </html>
+<?php
+var_dump($_ENV);
+?>
