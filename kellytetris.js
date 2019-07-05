@@ -142,7 +142,7 @@ function KellyTetris(holder, fExit) {
 	function draw() {
 	
 		if (gameover) {
-			holder.innerHTML = '\u0418\u0433\u0440\u0430 \u043e\u043a\u043e\u043d\u0447\u0435\u043d\u0430<br>\u0412\u0441\u0435\u0433\u043e \u043e\u0447\u043a\u043e\u0432: ' + score + '<br><br><br><br>\u041d\u0430\u0436\u043c\u0438\u0442\u0435 ↑  \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0447\u0430\u0442\u044c \u0441\u043d\u043e\u0432\u0430.<br>\u041d\u0430\u0436\u043c\u0438\u0442\u0435 ↓</b> \u0447\u0442\u043e\u0431\u044b \u0432\u044b\u0439\u0442\u0438 <br><br><br><br>\u0421\u043e\u0437\u0434\u0430\u0442\u0435\u043b\u044c: NC22 <a href="https://github.com/NC22">Github</a> <br>\u041f\u0435\u0440\u0435\u0432\u0451\u043b: \u0414\u0430\u0432\u0438\u0434 \u0421\u0430\u0439\u0440\u0435\u043a\u0441: <a href="https://vk.com/gamercool57">VK</a>';
+			holder.innerHTML = '\u0418\u0433\u0440\u0430 \u043e\u043a\u043e\u043d\u0447\u0435\u043d\u0430<br>\u0412\u0441\u0435\u0433\u043e \u043e\u0447\u043a\u043e\u0432: ' + score + '<br><br><br><br>\u041d\u0430\u0436\u043c\u0438\u0442\u0435 ↑  \u0447\u0442\u043e\u0431\u044b \u043d\u0430\u0447\u0430\u0442\u044c \u0441\u043d\u043e\u0432\u0430.<br>\u041d\u0430\u0436\u043c\u0438\u0442\u0435 ↓</b> \u0447\u0442\u043e\u0431\u044b \u0432\u044b\u0439\u0442\u0438 <br><br><br><br><b>\u0410\u0432\u0442\u043e\u0440</b>: NC22 <a href="https://github.com/NC22">Github</a> <br>\u041f\u0435\u0440\u0435\u0432\u0451\u043b \u0438 \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u0430\u043b: \u0414\u0430\u0432\u0438\u0434 \u0421\u0430\u0439\u0440\u0435\u043a\u0441: <a href="https://vk.com/gamercool57">VK</a>';
 			return;
 		}
 		
@@ -373,7 +373,7 @@ KellyTetris.playMe = function() {
 			starttext : 'Microsoft Windows [Version x.x.xxxx]\n(c) Корпорация Майкрософт (Microsoft Corp.), 2009. Все права защищены.\n',
 			text : 'C:\\Users\\User\\>\nC:\\Users\\User\\>cd Tetris\nC:\\User\\User\\Tetris\\>start tetris\nЗапуск игры Tetris...',
 			delayBefore : 5,
-			delayAfter : 5,
+			delayAfter : 15,
 			screen : game,
 			onEnd : function() {
 				
