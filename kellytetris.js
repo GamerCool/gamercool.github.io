@@ -370,8 +370,8 @@ KellyTetris.playMe = function() {
 		gameContainer.style.opacity = 1;
 		
 		KellyTetris.consoleType({
-			starttext : 'C:\\>',
-			text : '$_ENV["USERNAME"]',
+			starttext : 'C:\\',
+			text : 'Users\User\>',
 			delayBefore : 5,
 			delayAfter : 5,
 			screen : game,
